@@ -1,0 +1,51 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3
+}
+
+body {
+   background-color: #E5E5E5;
+   color: var(--primary-text-color);
+}
+ul {
+    list-style: none;
+}
+/* logo */
+.logo {
+    color: #000000
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+color: var(--accent-color);
+}
+.main-title {
+    color: #FFFFFF;
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.specifics-list .title {
+    color: var(--title-text-color);
+}
+.team-list .title {
+    color: var(--title-text-color);
+}
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+/* стилі для портфоліо */
+/* filters  */
+.filter {
+    color: var(--title-text-color);
+}
