@@ -7,13 +7,14 @@
 body {
    background-color: #E5E5E5;
    color: var(--primary-text-color);
-}
+   font-family: Roboto, sans-serif;
 ul {
     list-style: none;
 }
 /* logo */
 .logo {
-    color: #000000
+    color: #000000;
+    font-family: Raleway, sans-serif;
 }
 /* site-nav */
 .site-nav .link {
@@ -24,6 +25,12 @@ ul {
 }
 .site-nav .link.current {
 color: var(--accent-color);
+}
+.contact .link {
+    color: var(--primary-text-color)
+}
+.contact .link:hover, .link:focus {
+    color:var(--accent-color)
 }
 .main-title {
     color: #FFFFFF;
