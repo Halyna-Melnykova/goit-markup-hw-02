@@ -1,11 +1,13 @@
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
-    --accent-color: #2196F3
+    --accent-color: #2196F3;
+    --primary-white-color: #E5E5E5;
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: var(--primary-white-color);
+    
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -14,7 +16,7 @@ ul {
     list-style: none;
 }
 /* logo */
-.logo {
+.logo-primary {
     color: #000000;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -141,3 +143,34 @@ color: var(--accent-color);
     line-height: 30px;
 }
 /* footer */
+.page-footer {
+    background-color: #2F303A;
+}
+
+.logo-secondary {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.address {
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.footer-contacts:hover, .footer-contacts:focus {
+    color: var(--accent-color)
+}
